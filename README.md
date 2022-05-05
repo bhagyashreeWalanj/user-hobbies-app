@@ -42,6 +42,12 @@ Then run following command to start the project.
 npm start
 ```
 
+To execute test cases run following command.
+
+```
+npm run test -- -u
+```
+
 ## Mock API endpoint:
 
 https://624b52c271e21eebbcf0b4ba.mockapi.io/users
