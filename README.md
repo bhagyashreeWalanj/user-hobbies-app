@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# Arive Code Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This is an implemenation of the code challenge given by Arive as part of interview process. .
 
-## Available Scripts
+Arive Frontend Challenge - React with TypeScript
 
-In the project directory, you can run:
+> Write a front-end API for a small app "User Hobbies" with the following requirements: (Time: 1-2 hrs)
 
-### `npm start`
+> Key Feature:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. There would be 2 columns both resizable and scrollable.
+2. In User columns, user will be listed and added.
+3. Right column is blank grey screen untilauser is selected.
+4. Data should be loaded initially from the mock at http service layer. (Keeping other flow untouched as ifaproduction app)
+5. Onceauser is selected: In Right column, user can now view, add or delete(with confirmation dialog) the hobbies.
+6. Hobby consists of three things mentioned below. Passion can be selected out of "Low", "Medium", "High" and "Very-High". (Preferably
+   some validation).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+> Tech details:
 
-### `npm test`
+1. ReactJS with Typescript (Hint: Make your own nice directory structure of data/http services)
+2. Use Redux store. (Choose actions nicely)
+3. Mock data on Http level only.
+4. Create test infrastructure in Jest&enzymes and write test for at-least one functionality to demonstrate.
+5. Don't use any Css library like bootstrap.
+6. Create your own nice little SASS architect
+7. Add some color variables and write your sass for the layout (Hint: Flexbox and modular sass)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was bootstrapped with ReactJS version of the [Create React App](https://github.com/facebook/create-react-app).
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+First, install the packages.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Then run following command to start the project.
 
-### `npm run eject`
+```
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Mock API endpoint:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://624b52c271e21eebbcf0b4ba.mockapi.io/users
+(Refer \_mock.js file for mock data structure)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Third Party Libraries
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [typescript](https://react-bootstrap.github.io/getting-started/introduction) for react.
+- [react-redux](https://redux.js.org/introduction/installation)
+- [redux-thunk](https://www.npmjs.com/package/redux-thunk)
+- [@types/redux-thunk](https://redux.js.org/introduction/installation) for redux
+- [axios](https://axios-http.com/docs/intro) to handle Promise based HTTP client for the browser and node.js
+- [React Icons](https://react-icons.github.io/react-icons) for icons
+- [classnames](https://jedwatson.github.io/classnames/) for for conditionally joining classNames together.
+- [sass](https://sass-lang.com/install) for CSS extension
+- [@types/jest](https://jestjs.io/docs/getting-started) for the test runner
+- [enzyme](https://www.codementor.io/@rajjeet/get-started-with-react-testing-jest-enzyme-4-easy-steps-1dn5180mzr) for enzyme testing
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [enzyme-adapter-react-16](https://enzymejs.github.io/enzyme/docs/installation/react-16.html) is an adapter between React and Enzyme. This will be executed before running the tests.

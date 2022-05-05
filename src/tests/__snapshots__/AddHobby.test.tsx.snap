@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Add Hobby Component Renders user Hobbies Component 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="errorDiv"
+  />
+  <div
+    className="inputContainer"
+  >
+    <label
+      className="inputLabel"
+    >
+      Passion-Level : 
+    </label>
+    <select
+      className="inputContainerField"
+      onChange={[Function]}
+      value="Low"
+    >
+      <option
+        key="Low"
+        value="Low"
+      >
+        Low
+      </option>
+      <option
+        key="Medium"
+        value="Medium"
+      >
+        Medium
+      </option>
+      <option
+        key="High"
+        value="High"
+      >
+        High
+      </option>
+      <option
+        key="Very-High"
+        value="Very-High"
+      >
+        Very-High
+      </option>
+    </select>
+    <label
+      className="inputLabel"
+    >
+      Hobby:
+    </label>
+    <input
+      className="inputContainerField"
+      id="hobby"
+      onChange={[Function]}
+      placeholder="Enter user hobby"
+      type="text"
+      value=""
+    />
+    <label
+      className="inputLabel"
+    >
+      Year : 
+    </label>
+    <input
+      className="inputContainerField"
+      id="year"
+      maxLength={4}
+      onChange={[Function]}
+      placeholder="Enter year"
+      type="text"
+      value=""
+    />
+    <button
+      className="addHobbybutton"
+      onClick={[Function]}
+    >
+      Add Hobby
+    </button>
+  </div>
+  <div
+    className="itemHeader"
+  >
+    <span>
+      Passion-Level
+    </span>
+    <span>
+      Hobby
+    </span>
+    <span>
+      Year
+    </span>
+  </div>
+  <UserHobbiesList
+    hobbies={Array []}
+    removeHobby={[MockFunction]}
+  />
+</div>
+`;

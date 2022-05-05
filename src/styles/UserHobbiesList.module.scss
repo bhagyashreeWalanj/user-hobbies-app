@@ -1,0 +1,51 @@
+@import './main';
+
+.container {
+  font-size: $default-font-size;
+  overflow-x: scroll;
+  height: 75%;
+  &empty {
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 100px;
+  font-size: 20px;
+  grid-column-gap: 5rem;
+  padding: 1rem;
+  
+  border: 1px solid $black;
+  border-bottom: 0px;
+
+  &:last-child {
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+    border: 1px solid $black;
+  }
+
+  &:first-child {
+    border-top: 0px;
+  }
+
+  &:hover {
+    background: $gray;
+  }
+}
+
+
+
+.deleteBtn {    
+    color:$red;
+    cursor: pointer;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.noDataDiv{
+  font-size: 16px;
+}

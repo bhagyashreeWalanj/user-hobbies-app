@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing User List Component Renders user Hobbies Component 1`] = `
+<div
+  className="listContainer"
+>
+  <div>
+    <div
+      className="userListContainer"
+      id="username_1"
+      key="1"
+      onClick={[Function]}
+    >
+      <p
+        className="name"
+      >
+        John Hecker
+      </p>
+    </div>
+    <div
+      className="userListContainer"
+      id="username_2"
+      key="2"
+      onClick={[Function]}
+    >
+      <p
+        className="name"
+      >
+        John Hecker
+      </p>
+    </div>
+    <div
+      className="userListContainer"
+      id="username_3"
+      key="3"
+      onClick={[Function]}
+    >
+      <p
+        className="name"
+      >
+        John Hecker
+      </p>
+    </div>
+  </div>
+</div>
+`;

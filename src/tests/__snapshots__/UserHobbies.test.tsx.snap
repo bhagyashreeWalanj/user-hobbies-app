@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing User Hobbies Component should Renders user Hobbies Component 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="item"
+    key="1"
+  >
+    <span>
+      Low
+    </span>
+    <span>
+      Playing Cricket
+    </span>
+    <span>
+      Since 
+      1990
+    </span>
+    <MdDelete
+      className="deleteBtn"
+      id="deleteBtn_1"
+      name="delete"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="item"
+    key="2"
+  >
+    <span>
+      Low
+    </span>
+    <span>
+      Playing Cricket
+    </span>
+    <span>
+      Since 
+      1990
+    </span>
+    <MdDelete
+      className="deleteBtn"
+      id="deleteBtn_2"
+      name="delete"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

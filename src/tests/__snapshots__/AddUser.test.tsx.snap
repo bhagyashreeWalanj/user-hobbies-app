@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Add New User Component Renders Users Component 1`] = `
+<div>
+  <div
+    className="errorDiv"
+  />
+  <div
+    className="addUserContainer"
+  >
+    <input
+      className="searchContainerField"
+      id="newUser"
+      onChange={[Function]}
+      placeholder="Enter user name"
+      type="text"
+      value=""
+    />
+    <button
+      className="addUserbutton"
+      id="addNewbutton"
+      onClick={[Function]}
+    >
+      Add User
+    </button>
+  </div>
+  <UserList
+    Users={
+      Array [
+        Object {
+          "hobbies": Array [
+            Object {
+              "hobby": "Playing Cricket",
+              "id": "2",
+              "passion": "Low",
+              "year": "1990",
+            },
+          ],
+          "id": "1",
+          "name": "John Hecker",
+        },
+      ]
+    }
+    selectUser={[Function]}
+    selectedUserId=""
+  />
+</div>
+`;

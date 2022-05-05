@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+button {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+$white: #fff;
+$black: #000;
+$gray: #efefef;
+$red: #ff0000a8;
+$blue: #0571b6;
+@mixin solidBorder($width, $color) {
+    border: $width solid $color;
+}
+$default-font-size: 2.6rem;
